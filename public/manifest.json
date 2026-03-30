@@ -1,0 +1,74 @@
+{
+  "name": "Souviens-Toi - Plateforme de Mémoire Spirituelle",
+  "short_name": "Souviens-Toi",
+  "description": "Plateforme où la mémoire devient éternité. Préservons les récits sacrés, les témoignages vivants et les vérités intemporelles.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4F46E5",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "fr",
+  "categories": ["education", "lifestyle", "spiritual"],
+  "icons": [
+    {
+      "src": "/souv.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/souv.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/souv.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Page d'accueil de Souviens-Toi"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Histoire",
+      "short_name": "Histoire",
+      "description": "Découvrez l'histoire sacrée",
+      "url": "/histoire",
+      "icons": [
+        {
+          "src": "/souv.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Voix",
+      "short_name": "Voix",
+      "description": "Écoutez les témoignages",
+      "url": "/voix",
+      "icons": [
+        {
+          "src": "/souv.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Message",
+      "short_name": "Message",
+      "description": "Le message éternel",
+      "url": "/message",
+      "icons": [
+        {
+          "src": "/souv.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}

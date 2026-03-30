@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles that can't be replicated with Tailwind */
+.leader-img img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+
+.font-weight-semi-bold {
+    font-weight: 600 !important;
+}

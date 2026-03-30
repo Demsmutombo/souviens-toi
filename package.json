@@ -1,0 +1,58 @@
+{
+  "name": "souviens-toi",
+  "version": "1.0.0",
+  "description": "Souviens-Toi - Plateforme de Mémoire Spirituelle",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "vite preview --port 3000",
+    "build:analyze": "vite build --mode analyze",
+    "deploy:vercel": "vercel --prod",
+    "deploy:preview": "vercel"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "vue": "^3.4.0",
+    "vue-router": "^4.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.4.0",
+    "terser": "^5.46.1",
+    "vite": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "vite",
+    "tailwindcss",
+    "spiritual",
+    "memory",
+    "souviens-toi"
+  ],
+  "author": "Souviens-Toi Platform",
+  "license": "MIT",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "vercel-deployment": {
+    "framework": "vite",
+    "buildCommand": "npm run build",
+    "outputDirectory": "dist",
+    "devCommand": "npm run dev",
+    "installCommand": "npm install",
+    "env": {
+      "NODE_ENV": "production"
+    }
+  }
+}

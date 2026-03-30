@@ -1,0 +1,27 @@
+# Vercel Deployment Configuration
+# Souviens-Toi Platform
+
+## Build Command
+npm run build
+
+## Output Directory
+dist
+
+## Environment Variables
+NODE_ENV=production
+
+## Framework Detection
+- Vue.js 3
+- Vite
+- Static Site Generation
+
+## Performance Optimization
+- Static asset caching
+- Route fallback for SPA
+- Security headers
+- Compression enabled
+
+## Deployment Settings
+- Automatic deployments from main branch
+- Preview environments for pull requests
+- Custom domain configuration
