@@ -4,6 +4,7 @@
 @import './styles/souviens-toi-colors.css';
 @import './styles/plume-animations.css';
 @import './styles/responsive.css';
+@import './styles/mobile-responsive.css';
 
 @tailwind base;
 @tailwind components;

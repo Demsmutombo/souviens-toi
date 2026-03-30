@@ -70,7 +70,7 @@
             <div class="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
               <img src="/gallery/1990 shekina I/Shekinah0IJourDeVote.jpg" alt="Jour de vote" class="w-full h-48 object-cover">
               <div class="p-4">
-                <h3 class="font-semibold text-gray-800 mb-2">Jour bennis</h3>
+                <h3 class="font-semibold text-gray-800 mb-2">Jour béni</h3>
                 <p class="text-sm text-gray-600">Engagement civique et spirituel</p>
               </div>
             </div>
