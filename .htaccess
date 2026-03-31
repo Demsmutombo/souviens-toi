@@ -69,13 +69,7 @@ RewriteEngine On
 # Redirect all routes to index.html except for existing files and directories
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.+)$ index.html [L,QSA]
-
-# Handle trailing slashes
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_URI} !/$
-RewriteRule ^(.*)$ /$1/ [L,R=301]
+RewriteRule ^(.*)$ /index.html [L,QSA]
 
 # Force HTTPS (uncomment if SSL is configured)
 # RewriteCond %{HTTPS} off
