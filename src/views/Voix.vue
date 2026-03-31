@@ -46,7 +46,7 @@
             <div class="flex flex-col lg:flex-row items-center gap-6 lg:gap-8">
               <div class="lg:w-1/3 w-full">
                 <img 
-                  src="/temoignage/Pastor.png" 
+                  src="/temoignage/Pastor.jpg" 
                   alt="Pasteur Richard Diyoka N'sanguluja"
                   class="w-full rounded-lg shadow-lg"
                 />
@@ -148,9 +148,9 @@
             <div class="flex flex-col lg:flex-row items-center">
               <div class="lg:w-1/2 w-full">
                 <img 
-                  src="/temoignage/images.jpg" 
+                  src="/temoignage/branham2.jpg" 
                   alt="William Marrion Branham - Le Prophète du Temps de la Fin"
-                  class="w-full h-48 sm:h-64 lg:h-80 object-cover"
+                  class="w-full h-48 sm:h-64 lg:h-80 object-contain"
                 />
               </div>
               <div class="lg:w-1/2 w-full p-6 sm:p-8">
@@ -409,7 +409,7 @@ export default {
       featuredTestimony: {
         name: 'Frère Joseph',
         role: 'Pasteur - Église du Tabernacle de Shekinah',
-        image: '/temoignage/Pastor.png',
+        image: '/temoignage/Pastor.jpg',
         fullTestimony: 'Le jour où j\'ai entendu le Message pour la première fois, ma vie a changé à jamais. C\'était en 1985, lors d\'une campagne d\'évangélisation dans ma ville natale. Les paroles du pasteur ont résonné profondément dans mon cœur, comme si chaque phrase était spécialement adressée à moi. Ce soir-là, je me suis consacré entièrement au service de Dieu, et depuis, chaque jour de ma vie a été une aventure spirituelle extraordinaire. J\'ai vu des choses incroyables, des vies transformées, des familles restaurées, et des communautés entièrement changées par la puissance du Message divin.',
         date: '15 Mars 2025',
         location: 'Kinshasa, RDC',

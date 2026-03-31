@@ -95,7 +95,7 @@
           
           <div class="text-center mb-8">
             <div class="w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden">
-              <img src="/temoignage/Pastor.png" alt="Richard Diyoka N'sanguluja" class="w-full h-full object-cover">
+              <img src="/temoignage/Pastor.jpg" alt="Richard Diyoka N'sanguluja" class="w-full h-full object-cover">
             </div>
             <h3 class="text-2xl font-bold text-primary mb-2">Richard Diyoka N'sanguluja</h3>
             <p class="text-lg text-gray-600">Pasteur Principal - Shekinah Tabernacle</p>

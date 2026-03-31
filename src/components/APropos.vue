@@ -59,7 +59,7 @@
           <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 mb-8">
             <div class="lg:col-span-1">
               <div class="w-64 h-64 mx-auto rounded-full overflow-hidden shadow-xl">
-                <img src="/temoignage/Pastor.png" alt="Richard Diyoka N'sanguluja" class="w-full h-full object-cover">
+                <img src="/temoignage/Pastor.jpg" alt="Richard Diyoka N'sanguluja" class="w-full h-full object-cover">
               </div>
             </div>
             <div class="lg:col-span-2">

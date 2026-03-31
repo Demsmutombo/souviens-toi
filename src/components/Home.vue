@@ -2,7 +2,7 @@
   <div>
     <!-- Carousel Section -->
     <section class="relative">
-      <div class="relative h-96 lg:h-screen overflow-hidden">
+      <div class="relative h-80 lg:h-screen overflow-hidden">
         <div class="relative h-full">
           <!-- Carousel Slides -->
           <div 
@@ -12,8 +12,8 @@
             :class="{ 'opacity-100': currentSlide === index, 'opacity-0': currentSlide !== index }"
           >
             <img :src="slide.image" :alt="slide.title" class="w-full h-full object-cover">
-            <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-              <div class="text-center text-white p-6 max-w-4xl">
+            <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center pt-40">
+              <div class="text-center text-white p-6 max-w-4xl -mt-40">
                 <i :class="slide.icon" class="text-4xl lg:text-6xl mb-4"></i>
                 <h5 class="text-xl lg:text-2xl uppercase mb-2">{{ slide.subtitle }}</h5>
                 <h1 class="text-3xl lg:text-6xl font-bold mb-6">{{ slide.title }}</h1>

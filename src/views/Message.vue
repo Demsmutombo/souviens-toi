@@ -39,6 +39,20 @@
             Les principes divins qui guident nos vies et façonnent notre foi
           </p>
         </div>
+        
+        <!-- Image de William Branham -->
+        <div class="max-w-4xl mx-auto mb-16">
+          <div class="text-center">
+            <div class="inline-block relative mb-8">
+              <div class="absolute inset-0 bg-gradient-to-br from-primary-gold/20 to-transparent rounded-full scale-110"></div>
+              <img src="/temoignage/branham2.jpg" 
+                   alt="William Branham - Messager du temps de la fin" 
+                   class="relative w-64 h-64 lg:w-80 lg:h-80 object-cover rounded-full shadow-2xl border-8 border-white/90 transform hover:scale-105 transition-all duration-300">
+            </div>
+            <h3 class="text-2xl font-serif font-bold text-primary-gold mb-4">William Branham</h3>
+            <p class="text-lg text-gray-600 italic">Messager du temps de la fin</p>
+          </div>
+        </div>
       </div>
     </section>
 

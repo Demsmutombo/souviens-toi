@@ -2,7 +2,9 @@
   <div id="app" class="bg-plume-light font-serif">
     <Loader :isLoading="isLoading && !isMemoirePage" />
     <Navbar v-show="!isLoading" />
-    <router-view />
+    <main class="pt-20">
+      <router-view />
+    </main>
     <Footer />
   </div>
 </template>

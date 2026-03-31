@@ -71,7 +71,7 @@
           
           <div class="text-center mb-8">
             <div class="w-32 h-32 mx-auto mb-6 rounded-lg overflow-hidden">
-              <img src="/temoignage/Pastor.png" alt="Richard Diyoka N'sanguluja" class="w-full h-full object-cover">
+              <img src="/temoignage/Pastor.jpg" alt="Richard Diyoka N'sanguluja" class="w-full h-full object-cover">
             </div>
             <h3 class="text-2xl font-bold mb-2">Pasteur Richard Diyoka N'sanguluja</h3>
             <p class="text-gray-600">Fondateur et Pasteur Principal</p>
