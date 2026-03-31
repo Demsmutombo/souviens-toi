@@ -9,6 +9,9 @@ import Histoire from './views/Histoire.vue'
 import Voix from './views/Voix.vue'
 import Message from './views/Message.vue'
 import Memoire from './views/Memoire.vue'
+import { inject } from '@vercel/analytics';
+
+inject();
 
 // Routes avec métadonnées
 const routes = [
