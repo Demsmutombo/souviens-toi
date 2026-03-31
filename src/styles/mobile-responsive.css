@@ -21,8 +21,24 @@
   }
   
   p, span, div {
-    font-size: 0.875rem !important;
+    font-size: 1rem !important;
     line-height: 1.5;
+  }
+  
+  /* Content text improvements */
+  .text-content, .description, .card-text, .testimonial-text {
+    font-size: 1.1rem !important;
+    line-height: 1.6 !important;
+  }
+  
+  /* Navigation text */
+  .nav-text, .menu-text {
+    font-size: 1rem !important;
+  }
+  
+  /* Button text */
+  .btn-text, .button-text {
+    font-size: 1rem !important;
   }
   
   /* Container adjustments */
@@ -67,7 +83,7 @@
   /* Button adjustments */
   .btn {
     padding: 0.75rem 1.5rem !important;
-    font-size: 0.875rem !important;
+    font-size: 1rem !important;
   }
   
   /* Image adjustments */
@@ -85,7 +101,7 @@
   /* Navigation improvements */
   .nav-link {
     padding: 0.75rem 1rem !important;
-    font-size: 0.875rem !important;
+    font-size: 1rem !important;
   }
   
   /* Section spacing */
@@ -116,7 +132,7 @@
   
   .btn {
     padding: 0.625rem 1.25rem !important;
-    font-size: 0.8125rem !important;
+    font-size: 0.9rem !important;
   }
   
   /* Logo adjustments */
